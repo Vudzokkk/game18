@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Tim Hinh</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" type="image/png" href="./img/logo.png" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="controlSection">
+        <div id="point">
+          <p>POINT:</p>
+          <p>0</p>
+        </div>
+        <button id="startBtn">START</button>
+      </div>
+      <div id="modeSection">
+        <select name="level" value="1">
+          <option value="0">Choose level</option>
+          <option value="1">Level 1</option>
+          <option value="2">Level 2</option>
+          <option value="3">Level 3</option>
+          <option value="4">Level 4</option>
+        </select>
+        <select name="age" value="1">
+          <option value="0">Choose your age</option>
+          <option value="18">Above 18</option>
+          <option value="15">Below 18</option>
+        </select>
+      </div>
+      <div id="playground"></div>
+      <div id="modalContainer">
+        <div id="modal">
+          <div id="modalContent"></div>
+          <div id="modalFooter"></div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
